@@ -23,6 +23,34 @@ void testIt()
 
     //  both the ways are fine
   }
+
+  // operator
+  var age = 20;
+
+  // infix operator -
+  // final halfAge = age / 2;
+  // print(age);
+  // print(halfAge);
+
+  // --age is prefix operator
+  final halfAge = --age;
+
+  print(age);
+  print(halfAge);
+
+  // + - / * 
+
+  final myname = 'akash';
+  final name20times = myname * 20;
+  print(name20times);
+
+  
+
+
+
+
+
+
 }
 
 
